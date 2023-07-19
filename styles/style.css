@@ -11,13 +11,14 @@
 
 .header {
     background: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px;
+    padding: 50px 200px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .title-img{
@@ -47,6 +48,7 @@ nav li a {
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
     padding-top: 20px;
+    
 }
 
 
@@ -82,17 +84,37 @@ nav li a {
 .banner-img{
     width: 100%;
 }
-
+/*main start here */
 main{
 
-
-
 }
+   .gamer-section{
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        padding-top: 20px;
+        background: rgba(255, 144, 14, 0.10);
+        padding: 50px 200px;
+    }
+
+
  .gamer-title{
     font-size: 35px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
     
-    text-shadow: rgba(229, 53, 182, 0.69);
+    color: rgba(229, 53, 182, 0.69);
  }
+
+
+
+
+.gamer-img{
+    width: 100%;
+    padding-right: 10px;
+}
+.gamer-content{
+    width: 100%;
+}
