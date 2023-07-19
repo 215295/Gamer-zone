@@ -254,4 +254,37 @@ main{
     color: orangered
 }
 
+/*footer*/
+.footer{
+    background-color: rgb(4, 4, 49);
+    color: whitesmoke;
+    padding: 55px 250px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.condition>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.condition li {
+
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.para{
+    justify-content: center;
+    align-items: center;
+}
+
 
