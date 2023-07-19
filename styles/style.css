@@ -49,6 +49,12 @@ nav li a img{
 .youtube{
     display: flex;
 }
+nav a:hover{
+    border: 1px solid orangered;
+    border-radius:5px;
+    background-color:ghostwhite;
+    padding: 5px;
+}
 
 /* banner styles */
 .banner {
