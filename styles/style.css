@@ -182,7 +182,7 @@ main{
     
     
     background: #FFF;
-    padding: 55px 240px;
+    padding: 5px 240px;
 }
 .feature-title{
     font-size: 35px;
@@ -215,11 +215,43 @@ main{
     
    
     width: 300px;
-    height: 450px;
+    height: 350px;
     
     text-align: left;
     position: relative;
     bottom: 100px;
+}
+/*btn section*/
+.btn-section{
+        
+    
+    padding: 5px 240px;
+    text-align: center;
+}
+.btn-div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    
+    padding: 7px;
+    margin: 5px;
+    border: none;
+    border-radius: 30px;
+}
+.btn-div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover{
+    border: 1px solid orangered;
+    color: orangered
 }
 
 
