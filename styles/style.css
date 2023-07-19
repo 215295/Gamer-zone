@@ -133,3 +133,93 @@ main{
 .gamer-content{
     width: 100%;
 }
+
+/*card*/
+.card-section{
+    
+    background: #FFF;
+    padding: 55px 240px;
+    text-align: center;
+
+}
+.card-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;  
+
+}
+.card-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    justify-content: space-between;
+    
+   
+}
+.card-img img:hover{
+    border-radius: 16px;
+    background: url(image), lightgray 50% / cover no-repeat;
+}
+.card-info{
+    padding: 5px;
+    /* border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+.card-details{
+    display: flex;
+    text-align: center;
+    padding: px;
+    margin-top: 15px;
+}
+
+/*feature start here*/
+.feature-section{
+        
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+    background: #FFF;
+    padding: 55px 240px;
+}
+.feature-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;  
+
+}
+
+
+
+
+.feature-img{
+    width: 100%;
+    
+}
+.feature-content{
+    width: 100%;
+}
+
+
+
+.feature-img img{
+    height: 30%;
+    margin-left: 90px;
+}
+
+ .feature-overlap{
+    border-radius: 8px;
+    
+   
+    width: 300px;
+    height: 450px;
+    
+    text-align: left;
+    position: relative;
+    bottom: 100px;
+}
+
+
