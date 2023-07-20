@@ -140,6 +140,7 @@ main{
     background: #FFF;
     padding: 55px 240px;
     text-align: center;
+    justify-content:center ;
 
 }
 
@@ -161,6 +162,7 @@ main{
 
 .card-info{
     padding: 5px;
+   
     /* border-radius: 16px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
@@ -171,12 +173,15 @@ main{
     position: relative;
     width: 100%;
     width: 250px;
+    opacity: 1;
+    
   }
   
   .image {
-    display: block;
+   
     width: 100%;
     height: auto;
+    
   }
   
   .overlay {
@@ -225,6 +230,13 @@ main{
     padding: px;
     margin-top: 15px;
 }
+
+  
+  .container:hover  { 
+    opacity: 0.5;
+    box-shadow: #424242;
+    
+  }
 
 /*feature start here*/
 .feature-section{
@@ -299,10 +311,10 @@ main{
     display: flex;
     align-items: center;
     
-    padding: 7px;
+    padding: 4px;
     margin: 5px;
     border: none;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .btn-div2{
     display: flex;
