@@ -142,6 +142,7 @@ main{
     text-align: center;
 
 }
+
 .card-title{
     font-size: 35px;
     font-weight: 700;
@@ -159,6 +160,7 @@ main{
 }
 .card-img img:hover{
     border-radius: 16px;
+    border: 2px solid orange;
     background: url(image), lightgray 50% / cover no-repeat;
 }
 .card-info{
@@ -195,17 +197,26 @@ main{
 
 
 
-.feature-img{
-    width: 100%;
-    
+
+
+.main-img img{
+    width:87%;
+    height: 40%;
+    padding-left: 100px;
 }
-.feature-content{
-    width: 100%;
+
+ .over-img{
+   
+    width: 340px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 180px;
 }
 
 
 
-.feature-img img{
+/* .feature-img img{
     height: 30%;
     margin-left: 90px;
 }
@@ -220,7 +231,7 @@ main{
     text-align: left;
     position: relative;
     bottom: 100px;
-}
+} */
 /*btn section*/
 .btn-section{
         
@@ -255,13 +266,18 @@ main{
 }
 
 /*footer*/
-.footer{
+footer{
+
     background-color: rgb(4, 4, 49);
     color: whitesmoke;
     padding: 55px 250px;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    padding-bottom: 20px;
+}
+.footer{
+
 
 }
 .footer-img{
@@ -273,6 +289,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .condition li {
