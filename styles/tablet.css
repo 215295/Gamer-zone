@@ -39,12 +39,6 @@ main{
     width: 100%;
     padding-top: 40px;
 }
-    }
-
-
- 
-
-
 
 /*card*/
 .card-section{
@@ -54,140 +48,15 @@ main{
 
     
 
-
 }
-/* 
-.card-img{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:5px ;
-    justify-content: space-between;
-    padding-top: 20px;
-    
-   
-} */
-
-
-
-/*feature start here*/
-.feature-section{
-        
-    background: #FFF;
-    padding: 0px 40px;
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-    justify-content: center;
-    align-items: center;
-}
-.feature-title{
-    font-size: 35px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 20px;  
-
-}
-.main-img img{
-    width:75%;
-    height: 40%;
-    padding-left: 100px;
-}
-
-
-
-/*btn section*/
-.btn-section{
-    background: #FFF;
-    padding: 0px 40px;
-
-    justify-content: center;
-    align-items: center;    
-    
-
-}
-.btn-div1{
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 10px;
-}
-
-.btn{
-    display: flex;
-    align-items: center;
-    
-    padding: 7px;
-    margin: 5px;
-    border: none;
-    border-radius: 30px;
-}
-.btn-div2{
-    display: grid;
-    grid-template-columns:repeat(2, 1fr);
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 10px;
-}
-
-.btn:hover{
-    border: 1px solid orangered;
-    color: orangered
-}
-
-/*footer*/
-.footer{
-    
-    padding: 0px 0px;
-   
-    flex-direction: column;
-    padding-top: 40px;
-    justify-content: center;
-    align-items: center;
-
-
-    background-color: rgb(4, 4, 49);
-    color: whitesmoke;
-    
-
-    margin-bottom: 40px;
-
-}
-.footer-img{
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.condition>ul {
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.condition li {
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-
-    list-style: none;
-    
-    font-weight: 500;
-    font-size: 1rem;
-}
-.copy-right li{
-    display: flex;
-    justify-content: center;
-   
-    
-    
-}
-
-
     }
+
+
+ 
+
+
+
+
+
+
+    
